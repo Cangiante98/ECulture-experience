@@ -9,6 +9,7 @@ public class MainActivity extends AppCompatActivity {
     //ciao ragazzi pt2
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        //Endrit
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
