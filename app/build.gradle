@@ -3,16 +3,18 @@ plugins {
 }
 
 android {
-    compileSdk 31
+    compileSdk 27
 
     defaultConfig {
-        applicationId "org.meicode.ecolture_experience2"
-        minSdk 27
-        targetSdk 31
+        applicationId "org.meicode.eculture_experience"
+        minSdk 26
+        targetSdk 27
         versionCode 1
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        targetSdkVersion 27
+        minSdkVersion 26
     }
 
     buildTypes {
@@ -25,6 +27,8 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+    compileSdkVersion 27
+    buildToolsVersion '30.0.2'
 }
 
 dependencies {
